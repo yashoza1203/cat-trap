@@ -24,6 +24,7 @@ Simply run the command `python CatTrap.py`
 
 # Contact
 Eduardo Corpeño
+
 kuashio@gmail.com
 
 Enjoy!
