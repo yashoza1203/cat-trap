@@ -18,9 +18,9 @@ Simply run the command `python CatTrap.py`
 
 
 # Source Files
-- **CatTrap.py** The GUI and main function are in this file. Run this file to play the game.
-- **CatGame.py** The algorithms are implemented in this file. This is the  source code exposed in the LinkedIn Learning course.
-- **hexutil.py** A library that enables printing the hexgrid on the screen.
+- **CatTrap.py** - The GUI and main function are in this file. Run this file to play the game.
+- **CatGame.py** - The algorithms are implemented in this file. This is the  source code exposed in the LinkedIn Learning course.
+- **hexutil.py** - A library that enables printing the hexgrid on the screen.
 
 # Contact
 Eduardo Corpeño
