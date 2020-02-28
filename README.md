@@ -23,6 +23,7 @@ Simply run the command `python CatTrap.py`
 - **hexutil.py** A library that enables printing the hexgrid on the screen.
 
 # Contact
+Eduardo Corpeño
 kuashio@gmail.com
 
 Enjoy!
