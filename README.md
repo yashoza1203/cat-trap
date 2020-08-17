@@ -1,5 +1,5 @@
 # The Cat Trap
-An intelligent that plays the Cat Trap game using the Minimax algorithm, with Alpha-Beta pruning and Iterative Deepening. This is the project showcased in the LinkedIn Learning course titled AI Algorithms for Gaming.
+An intelligent agent that plays the Cat Trap game using the Minimax algorithm, with Alpha-Beta pruning and Iterative Deepening. This is the project showcased in the LinkedIn Learning course titled AI Algorithms for Gaming.
 
 # Playing the Game in your own Python setting
 You'll need Python 3, numpy and PyQT5. Simply run the command `python CatTrap.py`
