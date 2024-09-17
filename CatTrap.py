@@ -355,7 +355,7 @@ class MyWidget(QWidget):
 
 
         self.dimLabel = QLabel("The Cat Trap Game\nis an NxN HexGrid\n\nEnter an odd number for N:")
-        self.dimLabel.setFixedSize(200,2.5*height)
+        self.dimLabel.setFixedSize(200,int(2.5)*height)
 
         self.dimText = QLineEdit("7")
         self.dimText.setFixedSize(100,height)
@@ -392,9 +392,9 @@ class MyWidget(QWidget):
         
         
         self.spaceLabel1 = QLabel(" ")
-        self.spaceLabel1.setFixedSize(100,height/3)
+        self.spaceLabel1.setFixedSize(100,int(height/3))
         self.spaceLabel2 = QLabel(" ")
-        self.spaceLabel2.setFixedSize(10,height/3)
+        self.spaceLabel2.setFixedSize(10,int(height/3))
 
         self.start_button = QPushButton()
         self.start_button.setFixedSize(200, 2*height)
@@ -411,7 +411,7 @@ class MyWidget(QWidget):
    
         self.cat_trap = GameWidget(self,7)
 
-        self.cat_trap.setFixedWidth(TileRes*self.cat_trap.dim*stretch)
+        self.cat_trap.setFixedWidth(int(TileRes*self.cat_trap.dim*stretch))
         self.cat_trap.setFixedHeight(TileRes*self.cat_trap.dim*2)	
 
        
@@ -506,7 +506,7 @@ class MyWidget(QWidget):
         self.cat_trap = None
 
         self.cat_trap = GameWidget(self,int(self.dimText.text()))
-        self.cat_trap.setFixedWidth(TileRes*self.cat_trap.dim*stretch)
+        self.cat_trap.setFixedWidth(int(TileRes*self.cat_trap.dim*stretch))
         self.cat_trap.setFixedHeight(TileRes*self.cat_trap.dim*2)	
         self.leftLayout.addWidget(self.cat_trap)
         self.editCheckbox.setDisabled(False)
@@ -523,7 +523,7 @@ def main():
 
     w = MyWidget()
     w.setWindowTitle("Trap the Cat")
-    w.resize(TileRes*w.cat_trap.dim*stretch+200,TileRes*w.cat_trap.dim*2)
+    w.resize(int(TileRes*w.cat_trap.dim*stretch+200),int(TileRes*w.cat_trap.dim*2))
     w.show()
     sys.exit(app.exec_())
 
