@@ -1,3 +1,9 @@
+⚠️ **Notice**: This is a fork of the original LinkedIn Learning course repository.
+I have fixed an error encountered during the course exercises.  
+If you're facing issues while following along, this version includes the necessary fix.
+
+ Original course: AI Algorithms for Gaming by Eduardo Corpeño
+
 # The Cat Trap
 An intelligent agent that plays the Cat Trap game using the Minimax algorithm, with Alpha-Beta pruning and Iterative Deepening. This is the project showcased in my LinkedIn Learning course titled [***AI Algorithms for Gaming***](https://www.linkedin.com/learning/ai-algorithms-for-gaming).
 
